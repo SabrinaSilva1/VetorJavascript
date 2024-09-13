@@ -86,4 +86,40 @@ console.log(frutas_sel)
 
 //console.log(frutas_sel)
 
+let frutas2 = ['Laranja', 'Melancia', 'Morango', 'Uva', 'Caju'];
+let texto = frutas2.join(',')
+
+console.log(texto);
+
+let numeros = [1,2,3,4,5,6]
+let dobra = numeros.map(x=> x*2)
+
+console.log(dobra)
+
+//Exemplo de função
+/*function texto(t){
+    console.log(t)
+}
+*/
+numero2 = [1,2,3,4,5,6]
+let pares = numero2.filter(x => x % 2 == 0)
+
+console.log(pares)
+
+// Exemplo de ternário (if simplificado)
+
+let nota = 6
+let res = nota<=6 ? "Aprovado" : "Reprovado";
+console.log(res)
+
+//Vai localizar o elemento na array
+
+/*let numeros3 = [1,2,3,4,5,6]*/
+let localizado_find = numeros.find(x => x > 2);
+console.log(localizado_find)
+
+//Vai localizar a posição desse elemento
+
+let localiza_index = numeros.findIndex(x=> x>2)
+console.log(localiza_index)
 
